@@ -1,6 +1,12 @@
-import Typed from "react-typed";
+import { useTypedText } from "../hooks/useTypedText";
 
 export default function Home() {
+    const typedText = useTypedText([
+        "Data Analyst",
+        "Business Analyst",
+        "SQL & Python Specialist"
+    ]);
+
     return (
         <section className="home" id="home">
             <div className="home-content">
@@ -8,30 +14,8 @@ export default function Home() {
                 <h1>Dmytro Ruzhytskyi</h1>
 
                 <h3>
-                    And I'm a{" "}
-                    <span>
-                        <Typed
-                            strings={[
-                                "Data Analyst",
-                                "Business Analyst",
-                                "SQL & Python Specialist"
-                            ]}
-                            typeSpeed={80}
-                            backSpeed={50}
-                            loop
-                        />
-                    </span>
+                    And I'm a <span>{typedText}</span>
                 </h3>
-
-                <p>
-                    Data Analyst with experience in SQL, Python, Pandas, data visualization,
-                    and business insights. I work with real datasets, build dashboards,
-                    and translate data into actionable decisions.
-                </p>
-            </div>
-
-            <div className="home-img">
-                <img src="/img/me.jpg" alt="profile" />
             </div>
         </section>
     );
