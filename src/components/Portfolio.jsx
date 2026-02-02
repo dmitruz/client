@@ -1,6 +1,7 @@
 import { powerBiProjects } from "../data/powerBiProjects";
 import { pythonProjects } from "../data/pythonProjects";
 import { sqlProjects } from "../data/sqlProjects";
+import "../styles/main.css";
 
 
 export default function Portfolio() {
@@ -13,7 +14,7 @@ export default function Portfolio() {
             <div className="portfolio-container">
                 {pythonProjects.map((project, index) => (
                     <div className="portfolio-box" key={index}>
-                        <img src={project.image} alt={project.title} />
+                        <img className="portfolio-img" src={project.image} alt={project.title} />
                         <div className="portfolio-layer">
                             <h4>{project.title}</h4>
                             <p>{project.description}</p>
@@ -49,7 +50,7 @@ export default function Portfolio() {
             <div className="portfolio-container">
                 {powerBiProjects.map((project, index) => (
                     <div className="portfolio-box" key={index}>
-                        <img src={project.image} alt={project.title} />
+                        <img className="portfolio-img" src={project.image} alt={project.title} />
                         <div className="portfolio-layer">
                             <h4>{project.title}</h4>
                             <p>{project.description}</p>

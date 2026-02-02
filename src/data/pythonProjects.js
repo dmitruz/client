@@ -1,21 +1,25 @@
+import customersCohort from "../images/customers_cohort.png";
+import natzeroCountries from "../images/nat_zero_countries.png";
+import europeTravelData from "../images/europe_travel.png";
+
 export const pythonProjects = [
   {
-    title: "Sales Analysis Dashboard",
-    description: "SQL + Power BI analysis of e-commerce sales",
-    image: "/img/sales.jpg",
-    link: "https://github.com/yourname/sales-analysis"
+    title: "Analysis of Customers Cohort",
+    description: "Python + Power BI analysis of customers cohort",
+    image: customersCohort,
+    link: "https://github.com/dmitruzik/customers_cohort_analysis"
   },
   {
-    title: "Train Delay Analysis",
-    description: "Python & Pandas analysis of UK railway delays",
-    image: "/img/train.jpg",
-    link: "https://github.com/yourname/train-analysis"
+    title: "Nat Zero Countries Analysis",
+    description: "Python & Pandas analysis of Nat Zero countries",
+    image: natzeroCountries,
+    link: "https://github.com/dmitruzik/nat_zero_countries"
   },
   {
-    title: "Sales Analysis Dashboard",
-    description: "SQL + Power BI analysis of e-commerce sales",
-    image: "/img/sales.jpg",
-    link: "https://github.com/yourname/sales-analysis"
+    title: "Europe Travel Data",
+    description: "Python + Power BI analysis of europe travel data",
+    image: europeTravelData,
+    link: "https://github.com/dmitruzik/europe_travel_data"
   },
   {
     title: "Train Delay Analysis",

@@ -20,10 +20,25 @@ export default function Contact() {
             <h2 className="heading">Contact <span>Me</span></h2>
 
             <form onSubmit={handleSubmit}>
-                <input placeholder="Name" onChange={e => setForm({ ...form, name: e.target.value })} />
-                <input placeholder="Email" onChange={e => setForm({ ...form, email: e.target.value })} />
-                <textarea placeholder="Message" onChange={e => setForm({ ...form, message: e.target.value })} />
-                <button className="btn">Send</button>
+                <div className="input-box">
+                    <input
+                        type="text"
+                        placeholder="Name"
+                        onChange={e => setForm({ ...form, name: e.target.value })}
+                    />
+                    <input
+                        type="email"
+                        placeholder="Email"
+                        onChange={e => setForm({ ...form, email: e.target.value })}
+                    />
+                </div>
+
+                <textarea
+                    placeholder="Message"
+                    onChange={e => setForm({ ...form, message: e.target.value })}
+                />
+
+                <button type="submit" className="btn">Send</button>
             </form>
         </section>
     );
