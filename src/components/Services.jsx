@@ -29,7 +29,7 @@ export default function Services() {
                     <h3>Analytics Automation</h3>
                     <p>
                         Automating reports, data pipelines, and validation using Python,
-                        APIs, and SQL databases.
+                        APIs, and SQL databases (PostgreSQL, MySQL).
                     </p>
                 </div>
             </div>
