@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/client/static/css/main.3f4daaae.css",
+    "main.js": "/client/static/js/main.68f2b586.js",
+    "static/media/power_bi2.png": "/client/static/media/power_bi2.95174dfb8794bc26e21e.png",
+    "static/media/power_bi1.png": "/client/static/media/power_bi1.d348cbb9e549ac469052.png",
+    "static/media/power_bi3.png": "/client/static/media/power_bi3.58ee19d4a808481ddc26.png",
+    "static/media/customers_cohort.png": "/client/static/media/customers_cohort.be43f955a5b004bf0dab.png",
+    "static/media/sql_project1.png": "/client/static/media/sql_project1.2151e68a215e9f4f941b.png",
+    "static/media/sql_project_3.png": "/client/static/media/sql_project_3.bedd700ba240f7406ca8.png",
+    "static/media/nat_zero_countries.png": "/client/static/media/nat_zero_countries.3bb82568a291b2c2c2c4.png",
+    "static/media/europe_travel.png": "/client/static/media/europe_travel.59073aaf9079efa9c338.png",
+    "index.html": "/client/index.html",
+    "main.3f4daaae.css.map": "/client/static/css/main.3f4daaae.css.map",
+    "main.68f2b586.js.map": "/client/static/js/main.68f2b586.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f4daaae.css",
+    "static/js/main.68f2b586.js"
+  ]
+}
