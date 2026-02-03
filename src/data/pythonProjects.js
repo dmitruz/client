@@ -21,10 +21,5 @@ export const pythonProjects = [
     image: europeTravelData,
     link: "https://github.com/dmitruzik/europe_travel_data"
   },
-  {
-    title: "Train Delay Analysis",
-    description: "Python & Pandas analysis of UK railway delays",
-    image: "/img/train.jpg",
-    link: "https://github.com/yourname/train-analysis"
-  },
+ 
 ];

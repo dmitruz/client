@@ -2,6 +2,7 @@ import { powerBiProjects } from "../data/powerBiProjects";
 import { pythonProjects } from "../data/pythonProjects";
 import { sqlProjects } from "../data/sqlProjects";
 import "../styles/main.css";
+import Github from "../images/icons8-github-48.png";
 
 
 export default function Portfolio() {
@@ -19,7 +20,7 @@ export default function Portfolio() {
                             <h4>{project.title}</h4>
                             <p>{project.description}</p>
                             <a href={project.link} target="_blank">
-                                <i className="bx bx-link-external"></i>
+                                <img src={Github} alt="GitHub" className="github-icon" />
                             </a>
                         </div>
                     </div>
@@ -37,7 +38,7 @@ export default function Portfolio() {
                             <h4>{project.title}</h4>
                             <p>{project.description}</p>
                             <a href={project.link} target="_blank">
-                                <i className="bx bx-link-external"></i>
+                                <img src={Github} alt="GitHub" className="github-icon" />
                             </a>
                         </div>
                     </div>
@@ -55,7 +56,7 @@ export default function Portfolio() {
                             <h4>{project.title}</h4>
                             <p>{project.description}</p>
                             <a href={project.link} target="_blank">
-                                <i className="bx bx-link-external"></i>
+                                <img src={Github} alt="GitHub" className="github-icon" />
                             </a>
                         </div>
                     </div>

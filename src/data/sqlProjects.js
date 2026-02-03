@@ -1,26 +1,18 @@
+import sqlProject1 from "../images/sql_project1.png";
+import sqlProject2 from "../images/sql_project_3.png";
+
 export const sqlProjects = [
   {
-    title: "Sales Analysis Dashboard",
-    description: "SQL + Power BI analysis of e-commerce sales",
-    image: "/img/sales.jpg",
-    link: "https://github.com/yourname/sales-analysis"
+    title: "Customers Cohort Analysis",
+    description: "SQL + Power BI analysis of customer retention",
+    image: sqlProject1,
+    link: "https://github.com/dmitruzik/customers_cohort_analysis"
   },
   {
-    title: "Train Delay Analysis",
-    description: "Python & Pandas analysis of UK railway delays",
-    image: "/img/train.jpg",
-    link: "https://github.com/yourname/train-analysis"
+    title: "Order Furniture Metrics",
+    description: "SQL + Tableau dashboard for furniture sales metrics",
+    image: sqlProject2,
+    link: "https://github.com/dmitruzik/order_furniture_metrics"
   },
-  {
-    title: "Sales Analysis Dashboard",
-    description: "SQL + Power BI analysis of e-commerce sales",
-    image: "/img/sales.jpg",
-    link: "https://github.com/yourname/sales-analysis"
-  },
-  {
-    title: "Train Delay Analysis",
-    description: "Python & Pandas analysis of UK railway delays",
-    image: "/img/train.jpg",
-    link: "https://github.com/yourname/train-analysis"
-  },
+
 ];

@@ -125,7 +125,7 @@ span {
 }
 
 .home-content p {
-    font-size: 1.6rem;
+    font-size: 2.0rem;
 }
 
 .social-media a {
@@ -181,6 +181,7 @@ span {
 .heading {
     text-align: center;
     font-size: 4.5rem;
+    margin-top: 20px;
 }
 
 .about-content h2 {
@@ -197,9 +198,16 @@ span {
     margin: 2rem 0 3rem;
 }
 
+.home-paragraph {
+    font-size: 20px;
+    margin: 2rem 0 3rem;
+    max-width: 600px;
+}
+
 .services {
     min-height: auto;
     padding-bottom: 10rem;
+
 }
 
 .services h2 {
@@ -319,9 +327,11 @@ span {
     border-radius: 50%;
 }
 
-.portfolio-layer a i {
+.portfolio-layer a img {
     font-size: 2rem;
     color: var(--second-bg-color);
+    width: 5rem;
+    height: 5rem;
 }
 
 .contact {
