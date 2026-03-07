@@ -1,6 +1,6 @@
 import { useState } from "react";
 import axios from "axios";
-import '../styles/main.css';
+import "../styles/main.css";
 
 export default function Contact() {
     const [form, setForm] = useState({
@@ -11,8 +11,30 @@ export default function Contact() {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        await axios.post("http://localhost:5000/api/contact", form);
-        alert("Message sent!");
+
+        try {
+            await axios.post("http://localhost:5000/api/contact", form);
+
+            alert("Message sent!");
+
+            // clear form
+            setForm({
+                name: "",
+                email: "",
+                message: ""
+            });
+
+        } catch (error) {
+            console.error(error);
+            alert("Error sending message");
+        }
+    };
+
+    const handleChange = (e) => {
+        setForm({
+            ...form,
+            [e.target.name]: e.target.value
+        });
     };
 
     return (
@@ -23,19 +45,26 @@ export default function Contact() {
                 <div className="input-box">
                     <input
                         type="text"
+                        name="name"
                         placeholder="Name"
-                        onChange={e => setForm({ ...form, name: e.target.value })}
+                        value={form.name}
+                        onChange={handleChange}
                     />
+
                     <input
                         type="email"
+                        name="email"
                         placeholder="Email"
-                        onChange={e => setForm({ ...form, email: e.target.value })}
+                        value={form.email}
+                        onChange={handleChange}
                     />
                 </div>
 
                 <textarea
+                    name="message"
                     placeholder="Message"
-                    onChange={e => setForm({ ...form, message: e.target.value })}
+                    value={form.message}
+                    onChange={handleChange}
                 />
 
                 <button type="submit" className="btn">Send</button>
