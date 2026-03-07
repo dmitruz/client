@@ -1,5 +1,6 @@
 import { useState } from "react";
 import axios from "axios";
+import emailjs from "@emailjs/browser";
 import "../styles/main.css";
 
 export default function Contact() {
@@ -9,25 +10,28 @@ export default function Contact() {
         message: ""
     });
 
-    const handleSubmit = async (e) => {
+    const handleSubmit = (e) => {
         e.preventDefault();
 
-        try {
-            await axios.post("http://localhost:5000/api/contact", form);
+        emailjs.send(
+            "service_2sxn7kq",
+            "template_c9kahtb",
+            form,
+            "mImIJhy46YbMIOUAd"
+        )
+            .then(() => {
+                alert("Message sent!");
 
-            alert("Message sent!");
-
-            // clear form
-            setForm({
-                name: "",
-                email: "",
-                message: ""
+                setForm({
+                    name: "",
+                    email: "",
+                    message: ""
+                });
+            })
+            .catch((error) => {
+                console.error(error);
+                alert("Failed to send message");
             });
-
-        } catch (error) {
-            console.error(error);
-            alert("Error sending message");
-        }
     };
 
     const handleChange = (e) => {

@@ -8,6 +8,18 @@ import Github from "../images/icons8-github-48.png";
 export default function Portfolio() {
     return (
         <section className="portfolio" id="portfolio">
+
+            <div className="portfolio-tableau">
+
+                <a
+                    href="https://public.tableau.com/app/profile/dmytro.ruzhytskyi/vizzes"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn"
+                >
+                    Link to Tableau Dashboards
+                </a>
+            </div>
             <h2 className="heading">
                 Python <span>Projects</span>
             </h2>
