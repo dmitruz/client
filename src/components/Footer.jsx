@@ -1,18 +1,11 @@
-export default function Footer() {
-    return (
-        <footer className="footer">
-            <div className="footer-text">
-                <p>
-                    Copyright &copy; {new Date().getFullYear()} by Dmytro Ruzhytskyi | All
-                    Rights Reserved.
-                </p>
-            </div>
-
-            <div className="footer-iconTop">
-                <a href="#home">
-                    <i className="bx bx-up-arrow-alt"></i>
-                </a>
-            </div>
-        </footer>
-    );
-}
+<footer className="footer">
+    <div className="footerText">
+        <p> "Copyright © "
+            "2026" " by Dmytro Ruzhytskyi"
+            | All Rights Reserved."
+        </p>
+    </div>
+    <div className="footerIconTop">
+        <a href="#home"></a>
+    </div>
+</footer>
