@@ -14,9 +14,8 @@ export default function Home() {
                 <h3>
                     And I'm a <span>{typedText}</span>
                 </h3>
-                <p className="home-paragraph">
-                    Welcome to my portfolio! I'm Dmytro Ruzhytskyi, a passionate Data Analyst dedicated to transforming data into actionable insights. Explore my projects and skills to see how I can help drive informed decision-making through data analysis.
-                </p>
+                <p className="home-paragraph">I specialise in analysing large datasets to uncover trends in customer behaviour, product performance, and business growth. In my current and previous roles, I have built interactive dashboards (Power BI, Tableau), automated reporting processes using SQL and Python, and applied analytical techniques such as cohort analysis, funnel analysis, and A/B testing to improve user engagement and business outcomes.</p>
+
                 <a href="#contact" className="btn">Contact Me</a>
             </div>
         </section>
