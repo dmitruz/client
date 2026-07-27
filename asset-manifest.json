@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/client/static/css/main.3f4daaae.css",
-    "main.js": "/client/static/js/main.9607b589.js",
+    "main.css": "/client/static/css/main.617b9084.css",
+    "main.js": "/client/static/js/main.9adf02e0.js",
     "static/media/power_bi2.png": "/client/static/media/power_bi2.95174dfb8794bc26e21e.png",
     "static/media/power_bi1.png": "/client/static/media/power_bi1.d348cbb9e549ac469052.png",
     "static/media/power_bi3.png": "/client/static/media/power_bi3.58ee19d4a808481ddc26.png",
@@ -11,14 +11,15 @@
     "static/media/powerBi4.png": "/client/static/media/powerBi4.81526c08bb94019f78eb.png",
     "static/media/sql_project_3.png": "/client/static/media/sql_project_3.bedd700ba240f7406ca8.png",
     "static/media/sql3.png": "/client/static/media/sql3.ca63e4a854fd7e7aab50.png",
+    "static/media/retention.png": "/client/static/media/retention.5ce186a15edfab6be62c.png",
     "static/media/nat_zero_countries.png": "/client/static/media/nat_zero_countries.3bb82568a291b2c2c2c4.png",
     "static/media/europe_travel.png": "/client/static/media/europe_travel.59073aaf9079efa9c338.png",
     "index.html": "/client/index.html",
-    "main.3f4daaae.css.map": "/client/static/css/main.3f4daaae.css.map",
-    "main.9607b589.js.map": "/client/static/js/main.9607b589.js.map"
+    "main.617b9084.css.map": "/client/static/css/main.617b9084.css.map",
+    "main.9adf02e0.js.map": "/client/static/js/main.9adf02e0.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f4daaae.css",
-    "static/js/main.9607b589.js"
+    "static/css/main.617b9084.css",
+    "static/js/main.9adf02e0.js"
   ]
 }
