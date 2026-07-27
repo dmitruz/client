@@ -128,6 +128,40 @@ span {
     font-size: 2.0rem;
 }
 
+.social-box {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.social-list {
+    display: flex;
+    align-items: center;
+    /* Aligns items vertically in the center */
+    gap: 15px;
+    /* Adds clean spacing between items */
+    list-style: none;
+    padding: 0;
+    /* Removes default browser list padding */
+    margin: 0;
+    /* Removes default browser list margin */
+}
+
+.social-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-item img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    background-color: #0ef;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    /* Prevents icons from stretching if aspect ratios differ */
+}
+
 .social-media a {
     display: inline-flex;
     justify-content: center;
