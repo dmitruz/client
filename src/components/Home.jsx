@@ -23,7 +23,7 @@ export default function Home() {
                     <ul className="social-list">
                         <li className="social-item">
                             <a
-                                href="https://github.com/dmitruz"
+                                href="https://github.com/dmitruzik"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 aria-label="GitHub Profile"
